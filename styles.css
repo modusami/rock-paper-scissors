@@ -3,3 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --header-bg: black;
+    --score-bg: black;
+    --symbol-bg: white;
+    --footer-bg: var(--symbol-bg);
+
+    --header-color: white;
+    --score-color: white;
+    --symbol-color: black;
+    --footer-color: black;
+
+}
