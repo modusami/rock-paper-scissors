@@ -120,14 +120,12 @@ function playRound()
 
 function handleTie()
 {
-    console.log(`${playerChoice} and ${computerChoice}`)
     scoreStatus.innerText = "tie!";
     scoreStatus.style.display = "block";
 }
 
 function handleLoss()
 {
-    console.log(`${playerChoice} and ${computerChoice}`)
     scoreStatus.innerText = `lost! computer chose: ${computerChoice}`;
     scoreStatus.style.display = "block";
     computerIntScore += 1;
@@ -135,7 +133,6 @@ function handleLoss()
 
 function handleWin()
 {
-    console.log(`${playerChoice} and ${computerChoice}`)
     scoreStatus.innerText = `won! computer chose: ${computerChoice}`;
     scoreStatus.style.display = "block";
     playerIntScore += 1;
