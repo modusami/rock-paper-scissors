@@ -73,6 +73,11 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+p{
+    display: block;
 }
 
 #score{
@@ -81,6 +86,26 @@ main{
     font-weight: 1000;
     letter-spacing: 2px;
 
+}
+
+#status{
+    display: none;
+    font-size: calc(.75em + 1vw);
+    text-transform: uppercase;
+    font-weight: 1000;
+    letter-spacing: 2px;
+    color: yellow;
+}
+
+#play-again{
+    font-size: calc(.75em + 1vw);
+    text-transform: uppercase;
+    font-weight: 1000;
+    letter-spacing: 2px;
+    margin-top: 1em;
+    padding: 10px;
+    border-radius: 12px;
+    display: none;
 }
 
 #options{
