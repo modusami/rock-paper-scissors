@@ -125,7 +125,7 @@ p{
 }
 
 .option-title{
-    font-size: 1.3em;
+    font-size: var(1em + 1vw);
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 2px;
