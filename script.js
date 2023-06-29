@@ -155,7 +155,7 @@ function checkScore()
     }
     else if(playerIntScore === 5)
     {
-        scoreStatus.innerText = "game over. computer won!";
+        scoreStatus.innerText = "game over. player won!";
         flag = true;
     }
 
